@@ -23,8 +23,9 @@ class MenuGroupFactory extends Factory
     {
         return [
             //
-            'name' => $this->faker->word(2),
+            'name' => $this->faker->unique()->word(2),
             'icon' => $this->faker->randomElement(['fas fa-home', 'fas fa-user', 'fas fa-cog']),
+            'permission_name' => 'user.management',
         ];
     }
 }

@@ -12,8 +12,12 @@
     "devDependencies": {
         "axios": "^0.25",
         "chokidar": "^3.5.3",
+        "cypress": "^10.10.0",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "cypress-file-upload": "^5.0.8"
     }
 }
